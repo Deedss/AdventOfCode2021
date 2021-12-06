@@ -8,7 +8,7 @@ def readTextFile():
 
 def days(prevCount : dict, day):
     newCount = {"0":0, "1":0, "2":0, "3":0, "4":0, "5":0, "6":0, "7":0, "8":0}
-    if day < 257:
+    if day < 81:
         # Add new 0-days
         newCount["0"] = prevCount["1"]
         # Add new 1-days
